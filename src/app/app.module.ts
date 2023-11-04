@@ -17,6 +17,11 @@ import { SignupComponent } from './signup/signup.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ProfileDetailsComponent } from './profile-details/profile-details.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { AdminNavbarComponent } from './admin/admin-navbar/admin-navbar.component';
+import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.component';
+import { AdminAccountsComponent } from './admin/admin-accounts/admin-accounts.component';
+import { AdminDashboardComponent } from './admin/admin-dashboard/admin-dashboard.component';
+import { AdminUsersComponent } from './admin/admin-users/admin-users.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +39,11 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     SignupComponent,
     ForgotPasswordComponent,
     ProfileDetailsComponent,
+    AdminNavbarComponent,
+    AdminOrdersComponent,
+    AdminAccountsComponent,
+    AdminDashboardComponent,
+    AdminUsersComponent,
   ],
   imports: [
     BrowserModule,
